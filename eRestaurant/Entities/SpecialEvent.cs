@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace eRestaurant.Entities
 {
-    class SpecialEvent
+    public class SpecialEvent
     {
+        public string EventCode { get; set; }
+        public string Description { get; set; }
+        public bool Active { get; set; }
     }
 }
